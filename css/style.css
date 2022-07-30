@@ -1,0 +1,180 @@
+/* Items with link attributes on the page were given text color and non-underline attribute */
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+/* Item must be underlined when the cursor is on the element */
+a:hover {
+    text-decoration: underline;
+}
+
+/* All items on the page were given the font family attribute */
+body {
+    font-family: arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Topbar has been given margin, padding and font size properties */
+.top-bar {
+    margin-top: 18px;
+    padding:4px 23px;
+    font-size: small;
+}
+
+/* Items in top bar were positioned */
+#about-link {
+    margin-left: 6px;
+}
+#store-link {
+    margin-top: 6px;
+}
+#gmail-link {
+    margin-top: 0px;
+    position: absolute;
+    right: 240px;
+}
+#images-link {
+    margin-top: 0px;
+    position: absolute;
+    right: 170px;
+}
+#apps-link {
+    margin-top: 0px;
+    position: absolute;
+    right: 130px;
+}
+#sign-in-button {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    margin-top: 3px;
+    background-color: #1a73e8; 
+    border:1px solid transparent; 
+    color:white; 
+    padding:4px 14px; 
+    border-radius:2px; 
+    cursor: pointer; 
+    width: 75px; 
+    height: 30px;
+}
+
+/* The sign in button must be different color and have shadow,when cursor is on the button */
+#sign-in-button:hover {
+    background-color: #3180e7 ;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(49,128,231,0.44);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(49,128,231,0.44);
+    box-shadow: 0px 1px 1px 1px rgba(49,128,231,0.44);
+}
+
+/* Logo positioned */
+#logo {
+    margin-top: 115px;
+}
+
+/* All items in the top bar were positioned from left */
+#search-bar * {
+    float: left;
+}
+
+/*  Dimensions of the search bar were given
+    Border of the search bar created
+    Shadow of the search bar created */
+#search-bar {
+    margin-top: 25px;
+    width: 38%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    -webkit-box-shadow: -1px 1px 2px 1px rgba(209,207,209,1);
+    -moz-box-shadow: -1px 1px 2px 1px rgba(209,207,209,1);
+    box-shadow: -1px 1px 2px 1px rgba(209,207,209,1);
+}
+
+/* Search icon and microphone icon positioned */
+#search-icon {
+    margin-top: 9px;
+    margin-left: 8px;
+}
+#mic-icon {
+    margin-left: 510px;
+    margin-top: 5px;
+}
+
+/* All items in the search area were positioned */
+#search-area * {
+    margin-top: 5px;
+    width: 31%;
+    height: 4% ;
+    position: absolute;
+    left: 34%;
+    border: none;
+    outline: none;
+    font-size: large;
+}
+
+/* The cursor must be a pointer when it is on the microphone icon*/
+#mic-icon:hover {
+    cursor: pointer;
+}
+
+/*  Shadows were created for buttons
+    Borders were added to buttons
+    Color, font size, padding and margin properties were setted */
+#search, #lucky  {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+/* The buttons must be different color and a border,when cursor is on the button */
+#search:hover {
+    border-color: #bbbbbb;
+    border-width: 1px;
+}
+#lucky:hover {
+    border-color: #bbbbbb;
+    border-width: 1px;
+}
+
+/* The buttons were positioned */
+#search-buttons {
+    margin-top: 30px;
+}
+
+/* The footer positioned */
+#footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 279px;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+
+/*  Right footer positioned
+    The items in the right footer were positioned from right */
+#right-footer * {
+    float: right;
+    margin-right: 30px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+/*  Left footer positioned
+    The items in the left footer were positioned from left */
+#left-footer * {
+    float: left;
+    margin-left: 30px;
+    font-size: 15px;
+}
